@@ -4,7 +4,6 @@
 var buildIndex = require('./lib/buildIndex');
 var FullIndex = require('./lib/FullIndex').FullIndex;
 var fs = require('fs');
-
 var dir = process.argv[2];
 var output = process.argv[3];
 

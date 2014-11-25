@@ -12,4 +12,4 @@ var query = process.argv.slice(3).join(' ');
 var json = JSON.parse(fs.readFileSync(index_file, "utf-8"));
 index.loadFromJSON(json);
 
-console.log(JSON.stringify(index.findRanked(query), null, 4));
+console.log(JSON.stringify(index.findRanked(query).slice(0, 3), null, 4));
