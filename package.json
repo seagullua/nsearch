@@ -1,0 +1,26 @@
+{
+  "name": "nsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seagullua/nsearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seagullua/nsearch/issues"
+  },
+  "homepage": "https://github.com/seagullua/nsearch",
+  "dependencies": {
+    "async": "^0.9.0",
+    "iconv": "^2.1.4",
+    "natural": "^0.1.29",
+    "node-fb2": "git://github.com/seagullua/node-fb2.git",
+    "underscore": "^1.7.0"
+  }
+}

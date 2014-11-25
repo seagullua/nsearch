@@ -1,7 +1,7 @@
 # Logs
 logs
 *.log
-
+books/
 # Runtime data
 pids
 *.pid
@@ -26,3 +26,4 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+.idea
